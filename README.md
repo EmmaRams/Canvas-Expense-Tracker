@@ -1,20 +1,20 @@
-# 💸 Canvas Expense Tracker
+#  Canvas Expense Tracker
 
 A simple, user-friendly **expense tracking web app** built with **Python (Flask)** to help users manage daily expenses, identify spending patterns, and stay within budget.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧾 Add and view daily expenses via a clean HTML interface
-- 📊 Generate **monthly summaries** categorized by spending type
-- 📁 Persistent data storage using JSON (no external database needed)
-- 🛠 Backend built using Flask with dynamic routing
-- ✅ Helps users detect overspending trends and maintain budget discipline
+-  Add and view daily expenses via a clean HTML interface
+-  Generate **monthly summaries** categorized by spending type
+-  Persistent data storage using JSON (no external database needed)
+-  Backend built using Flask with dynamic routing
+-  Helps users detect overspending trends and maintain budget discipline
 
 ---
 
-## 🖥️ Tech Stack
+##  Tech Stack
 
 - **Backend:** Python 3, Flask
 - **Frontend:** HTML, Bootstrap (optional for styling)
@@ -22,7 +22,7 @@ A simple, user-friendly **expense tracking web app** built with **Python (Flask)
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository:**
    ```bash
