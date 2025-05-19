@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>📈 Spending Analytics</h2>
+    
+    <div class="chart-container">
+        <h3>Monthly Breakdown</h3>
+        {% for month, data in analysis.items() %}
+        <div class="month-card">
+            <h3>{{ month }} - Total: ${{ "%.2f"|format(data.total) }}</h3>
+            <div class="category-list">
+                {% for category, amount in data.categories.items() %}
+                <div class="category-item">
+                    <span>{{ category }}</span>
+                    <span>${{ "%.2f"|format(amount) }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
