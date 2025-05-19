@@ -26,5 +26,5 @@ A simple, user-friendly **expense tracking web app** built with **Python (Flask)
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/canvas-expense-tracker.git
+   git clone https://github.com/EmmaRams/canvas-expense-tracker.git
    cd canvas-expense-tracker
